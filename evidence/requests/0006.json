@@ -1,0 +1,10 @@
+{
+  "role": "training",
+  "scenario": {
+    "duration": 0.8,
+    "offset": 0.35,
+    "x": -0.6
+  },
+  "seed": 125,
+  "confirmation": false
+}

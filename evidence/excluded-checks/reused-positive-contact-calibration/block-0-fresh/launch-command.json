@@ -1,0 +1,38 @@
+{
+  "command": [
+    "ros2",
+    "launch",
+    "/tmp/robot-failure-lab-05-contact-v4-20261020/source/seeded_launch.py",
+    "headless:=True",
+    "use_rviz:=False",
+    "use_composition:=False",
+    "params_file:=/tmp/robot-failure-lab-05-contact-v4-20261020/params.yaml",
+    "map:=/tmp/robot-failure-lab-05-contact-v4-20261020/tb3_sandbox.yaml",
+    "robot_sdf:=/tmp/robot-failure-lab-05-contact-v4-20261020/source/measured_robot.sdf.xacro",
+    "world:=/tmp/robot-failure-lab-05-contact-v4-20261020/source/world.sdf.xacro"
+  ],
+  "bridge": [
+    "ros2",
+    "run",
+    "ros_gz_bridge",
+    "parameter_bridge",
+    "/model/turtlebot3_waffle/pose@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V",
+    "/model/rfl05_obstacle/pose@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V",
+    "/rfl05/contacts@ros_gz_interfaces/msg/Contacts[gz.msgs.Contacts",
+    "/world/default/set_pose@ros_gz_interfaces/srv/SetEntityPose",
+    "--ros-args",
+    "-r",
+    "__node:=failure_lab_05_instrumentation_bridge",
+    "-r",
+    "/model/turtlebot3_waffle/pose:=/rfl05/truth",
+    "-r",
+    "/model/rfl05_obstacle/pose:=/rfl05/obstacle_pose"
+  ],
+  "domain": 126,
+  "seed": 100,
+  "host_load": [
+    1.16748046875,
+    1.10546875,
+    0.6005859375
+  ]
+}

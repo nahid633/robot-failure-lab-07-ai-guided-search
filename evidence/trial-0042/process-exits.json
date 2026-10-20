@@ -1,0 +1,14 @@
+[
+  {
+    "pid": 2031,
+    "returncode": 0
+  },
+  {
+    "pid": 2032,
+    "returncode": 250
+  },
+  {
+    "pid": 2414,
+    "returncode": -2
+  }
+]

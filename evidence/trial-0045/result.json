@@ -1,0 +1,140 @@
+{
+  "scenario": {
+    "duration": 1.2,
+    "offset": 0.35,
+    "x": -0.3
+  },
+  "oracle_valid": true,
+  "unreached_reason": null,
+  "start_sim_s": 20.571,
+  "window_start": 30.735,
+  "appearance": 30.96,
+  "cutoff": 36.735,
+  "observed_cutoff": 36.768,
+  "observation_end": 38.88,
+  "obstacle_request_time": 30.939,
+  "obstacle_service_success": true,
+  "goal_accepted": true,
+  "natural_terminal": null,
+  "cancel_requested": true,
+  "terminal_action_status": 5,
+  "label": 0,
+  "contact_messages_in_label_window": 0,
+  "first_contact_after_appearance_s": null,
+  "min_sampled_envelope_clearance_m": 0.03846203131275866,
+  "stop_after_appearance_s": 1.583999999999996,
+  "graph": {
+    "/scan": {
+      "publishers": [
+        "ros_gz_bridge"
+      ],
+      "subscribers": [
+        "failure_lab_05_observer"
+      ]
+    },
+    "/rfl05/localization_scan": {
+      "publishers": [
+        "failure_lab_05_observer"
+      ],
+      "subscribers": [
+        "failure_lab_05_observer",
+        "amcl"
+      ]
+    },
+    "/rfl05/obstacle_scan": {
+      "publishers": [
+        "failure_lab_05_observer"
+      ],
+      "subscribers": [
+        "collision_monitor",
+        "failure_lab_05_observer",
+        "local_costmap",
+        "global_costmap"
+      ]
+    },
+    "/rfl05/truth": {
+      "publishers": [
+        "failure_lab_07_bridge"
+      ],
+      "subscribers": [
+        "failure_lab_05_observer"
+      ]
+    },
+    "/rfl05/obstacle_pose": {
+      "publishers": [
+        "failure_lab_07_bridge"
+      ],
+      "subscribers": [
+        "failure_lab_05_observer"
+      ]
+    },
+    "/rfl05/contacts": {
+      "publishers": [
+        "failure_lab_07_bridge"
+      ],
+      "subscribers": [
+        "failure_lab_05_observer"
+      ]
+    }
+  },
+  "graph_end": {
+    "/scan": {
+      "publishers": [
+        "ros_gz_bridge"
+      ],
+      "subscribers": [
+        "failure_lab_05_observer"
+      ]
+    },
+    "/rfl05/localization_scan": {
+      "publishers": [
+        "failure_lab_05_observer"
+      ],
+      "subscribers": [
+        "failure_lab_05_observer",
+        "amcl"
+      ]
+    },
+    "/rfl05/obstacle_scan": {
+      "publishers": [
+        "failure_lab_05_observer"
+      ],
+      "subscribers": [
+        "collision_monitor",
+        "failure_lab_05_observer",
+        "local_costmap",
+        "global_costmap"
+      ]
+    },
+    "/rfl05/truth": {
+      "publishers": [
+        "failure_lab_07_bridge"
+      ],
+      "subscribers": [
+        "failure_lab_05_observer"
+      ]
+    },
+    "/rfl05/obstacle_pose": {
+      "publishers": [
+        "failure_lab_07_bridge"
+      ],
+      "subscribers": [
+        "failure_lab_05_observer"
+      ]
+    },
+    "/rfl05/contacts": {
+      "publishers": [
+        "failure_lab_07_bridge"
+      ],
+      "subscribers": [
+        "failure_lab_05_observer"
+      ]
+    }
+  },
+  "sensor_offset": [
+    -0.064,
+    0.0,
+    0.0
+  ],
+  "worker_wall_s": 18.51624562500001
+}

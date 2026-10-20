@@ -1,0 +1,446 @@
+{
+  "experiment": "Robot Failure Lab 07: AI-guided failure search",
+  "phase": "verify",
+  "train": [
+    {
+      "duration": 0.0,
+      "offset": -0.35,
+      "x": -0.6
+    },
+    {
+      "duration": 0.0,
+      "offset": 0.0,
+      "x": -0.6
+    },
+    {
+      "duration": 0.0,
+      "offset": 0.35,
+      "x": -0.6
+    },
+    {
+      "duration": 0.8,
+      "offset": -0.35,
+      "x": -0.6
+    },
+    {
+      "duration": 0.8,
+      "offset": 0.0,
+      "x": -0.6
+    },
+    {
+      "duration": 0.8,
+      "offset": 0.35,
+      "x": -0.6
+    },
+    {
+      "duration": 1.6,
+      "offset": -0.35,
+      "x": -0.6
+    },
+    {
+      "duration": 1.6,
+      "offset": 0.0,
+      "x": -0.6
+    },
+    {
+      "duration": 1.6,
+      "offset": 0.35,
+      "x": -0.6
+    }
+  ],
+  "candidate_grid": [
+    {
+      "duration": 0.0,
+      "offset": -0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 0.0,
+      "offset": -0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 0.0,
+      "offset": 0.0,
+      "x": -0.3
+    },
+    {
+      "duration": 0.0,
+      "offset": 0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 0.0,
+      "offset": 0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 0.4,
+      "offset": -0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 0.4,
+      "offset": -0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 0.4,
+      "offset": 0.0,
+      "x": -0.3
+    },
+    {
+      "duration": 0.4,
+      "offset": 0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 0.4,
+      "offset": 0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 0.8,
+      "offset": -0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 0.8,
+      "offset": -0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 0.8,
+      "offset": 0.0,
+      "x": -0.3
+    },
+    {
+      "duration": 0.8,
+      "offset": 0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 0.8,
+      "offset": 0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 1.2,
+      "offset": -0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 1.2,
+      "offset": -0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 1.2,
+      "offset": 0.0,
+      "x": -0.3
+    },
+    {
+      "duration": 1.2,
+      "offset": 0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 1.2,
+      "offset": 0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 1.6,
+      "offset": -0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 1.6,
+      "offset": -0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 1.6,
+      "offset": 0.0,
+      "x": -0.3
+    },
+    {
+      "duration": 1.6,
+      "offset": 0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 1.6,
+      "offset": 0.35,
+      "x": -0.3
+    }
+  ],
+  "fixed_order": [
+    {
+      "duration": 1.6,
+      "offset": 0.0,
+      "x": -0.3
+    },
+    {
+      "duration": 1.6,
+      "offset": -0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 1.6,
+      "offset": 0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 1.6,
+      "offset": -0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 1.6,
+      "offset": 0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 1.2,
+      "offset": 0.0,
+      "x": -0.3
+    },
+    {
+      "duration": 1.2,
+      "offset": -0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 1.2,
+      "offset": 0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 1.2,
+      "offset": -0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 1.2,
+      "offset": 0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 0.8,
+      "offset": 0.0,
+      "x": -0.3
+    },
+    {
+      "duration": 0.8,
+      "offset": -0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 0.8,
+      "offset": 0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 0.8,
+      "offset": -0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 0.8,
+      "offset": 0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 0.4,
+      "offset": 0.0,
+      "x": -0.3
+    },
+    {
+      "duration": 0.4,
+      "offset": -0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 0.4,
+      "offset": 0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 0.4,
+      "offset": -0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 0.4,
+      "offset": 0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 0.0,
+      "offset": 0.0,
+      "x": -0.3
+    },
+    {
+      "duration": 0.0,
+      "offset": -0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 0.0,
+      "offset": 0.175,
+      "x": -0.3
+    },
+    {
+      "duration": 0.0,
+      "offset": -0.35,
+      "x": -0.3
+    },
+    {
+      "duration": 0.0,
+      "offset": 0.35,
+      "x": -0.3
+    }
+  ],
+  "verification": [
+    {
+      "scenario": {
+        "duration": 0.0,
+        "offset": 0.0,
+        "x": -0.6
+      },
+      "seed": 100
+    },
+    {
+      "scenario": {
+        "duration": 1.6,
+        "offset": 0.0,
+        "x": -0.6
+      },
+      "seed": 100
+    },
+    {
+      "scenario": {
+        "duration": 0.0,
+        "offset": 0.0,
+        "x": -0.3
+      },
+      "seed": 100
+    },
+    {
+      "scenario": {
+        "duration": 1.6,
+        "offset": 0.0,
+        "x": -0.3
+      },
+      "seed": 100
+    },
+    {
+      "scenario": {
+        "duration": 0.0,
+        "offset": 0.0,
+        "x": -0.3
+      },
+      "seed": 111
+    },
+    {
+      "scenario": {
+        "duration": 1.6,
+        "offset": 0.0,
+        "x": -0.3
+      },
+      "seed": 111
+    }
+  ],
+  "training_seed_rule": "120+training_index",
+  "search_seeds": "discovery 200+episode; confirmation 300+episode",
+  "episodes": [
+    1,
+    2,
+    3
+  ],
+  "policy_order": [
+    [
+      "model",
+      "random",
+      "fixed"
+    ],
+    [
+      "random",
+      "fixed",
+      "model"
+    ],
+    [
+      "fixed",
+      "model",
+      "random"
+    ]
+  ],
+  "episode_total_simulator_budget": 15,
+  "model_training_charge": 9,
+  "model_heldout_query_budget": 6,
+  "baseline_heldout_query_budget": 15,
+  "training_shared_physically": true,
+  "training_accounting": "All 9 warm calls charged to model in every standalone episode; also report unique-physical/amortized totals. Baselines pay no training charge.",
+  "model": {
+    "kind": "Gaussian process regression surrogate of binary observed-contact label; not calibrated probability",
+    "prior": 0.5,
+    "noise_std": 0.2,
+    "length_scales": [
+      0.6,
+      0.65,
+      1.0
+    ],
+    "acquisition": "mean + 0.5 std",
+    "tuning": "none"
+  },
+  "label": "At least one obstacle-specific contact event between independently observed appearance and fault onset+6 simulated seconds. Zero means no received event, not certified no contact.",
+  "confirmation": "Positive discovery followed immediately by same scenario with new seed; both positive. Confirmation consumes query budget. Stop policy after first confirmed failure, otherwise right-censored at budget.",
+  "holdout": "All warm cases obstacle x=-0.60; all search cases x=-0.30. No heldout outcome is read before its request. Updates see only own policy/episode labels. Verification excluded from model inputs.",
+  "task": "Fixed six-second post-trigger observation; intentionally cancel still-active action, then passive 1.8 s tail. Active at horizon is not goal failure or mission timeout.",
+  "domain_policy": "Sequential low-domain leases: 10 + startup index modulo 90; reuse only after full prior process-group shutdown. Unique Gazebo partition each attempt.",
+  "limits": {
+    "startup_wall_s": 75,
+    "worker_wall_s": 260,
+    "pretrigger_sim_s": 45,
+    "task_wall_s": 150,
+    "tail_wall_s": 30,
+    "max_startups_per_request": 3
+  },
+  "calibration_root": "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-05/excluded-checks/contact-v4",
+  "verification_root": null,
+  "source_sha256": {
+    "core.py": "42d25ce6fda1564fb230867edbfde05a705f4bba6993ed1176a0918beabec0e3",
+    "measured_robot.sdf.xacro": "f639bbf66b19c56cc5a668ba44e854e9355e88bb93f5fbb3f2af8689df921111",
+    "models.py": "5c47a0fc15016f1a9ab717f426d9f5c2046ce3390f92123139c1ef8d3ea449ca",
+    "observer.py": "54b84c69231bbea643ce842b44cdcf106d39691bd218c22074a6facd18fbb9cb",
+    "README.md": "1381fd4444383db548e45423bf550cd61c4873f9a507d7551a4632d24debf53a",
+    "report.py": "660b0bf90a1b4c5cd02e895dfcaecf090f1d8b8503fe6697eb6c2451602b14a4",
+    "run.py": "def08d90eadc5d4763ad4a6e61214fd85a0b86c990a1edb2c74320fc63fdc373",
+    "search.py": "f73ac1d9d6ca83ffba5cedea0ca083af5436edf228a906baa2c7cdba8adb6ef2",
+    "seeded_launch.py": "cd81a41d76374d49c82b0083b0f7ae14bb5dc7d8f4cd9d5602ceed16ece241f3",
+    "support.py": "1dd97ab7f19a646560bf13b6b671e329e1c5279e0ed204bd003b553443fb5da3",
+    "test_search.py": "a22e87f8a3041a7b4c8a0a2c772ba59a406e7075f4020a44f6831dce30a6d2a7",
+    "upstream_launch.txt": "cb65906827c9897100512d64ee1ac7537fe859e3fc29fcc96aec8119bd7bebf2",
+    "upstream_robot.sdf.xacro": "133ebbe76997b98e43dbe03aea5a77dd6bd4117a3100343d5857b63cd3128a83",
+    "upstream_world.sdf.xacro": "466ebfb9f3dc39c46829a01c405543091d428839c15697d80ddb8fab6dff7771",
+    "validate.py": "7a4fd48a5fc6e76d2fd90984f69000a50480ff69c75b1eb4422fcce0cdfc1b84",
+    "worker.py": "c05092542fcd0e3fc288475d918f9583f26f358f3e10f99e57e84502cbb3f906",
+    "world.sdf.xacro": "37492899b862e8a059082a2976f9a379986343b53b305b20073a9b1653fe4867"
+  },
+  "input_sha256": {
+    "packages.txt": "bd4dafa0a987a4021ad1d16e6f85b415bbcd7d8a19e8a8ab0b1b08bb403ce5ff",
+    "params.yaml": "78e1858fda7d253ef2bd044f1a2ee518ac05dde65241384f62a522f3cf956259",
+    "tb3_sandbox.pgm": "0103b9dfaa3b79592af71cc35d64f69cfbd3565d173160820ad8ef56cd27b3fc",
+    "tb3_sandbox.yaml": "2a284eba0a3aa4a904bce71734c56a543e979899f1cf34daad6e8215e608b438",
+    "upstream-params.yaml": "26e4361b02dbc68c17296147167989c75ff7e3348481d2e4652b6f79e9082069"
+  },
+  "command": [
+    "run.py",
+    "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/verification-v4",
+    "--phase",
+    "verify",
+    "--calibration-root",
+    "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-05/excluded-checks/contact-v4"
+  ]
+}

@@ -1,0 +1,23 @@
+[INFO] [1792507710.378547064] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792507711.389548771] [basic_navigator]: amcl/get_state service not available, waiting...
+[INFO] [1792507713.642625325] [basic_navigator]: Setting initial pose
+[INFO] [1792507713.643299163] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792507713.643914155] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792507713.645494573] [basic_navigator]: Setting initial pose
+[INFO] [1792507713.646066157] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792507713.646879332] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792507713.647319693] [basic_navigator]: Setting initial pose
+[INFO] [1792507713.649243568] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792507713.656248688] [basic_navigator]: Waiting for amcl_pose to be received
+Traceback (most recent call last):
+  File "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/worker.py", line 109, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/worker.py", line 28, in main
+    nav.setInitialPose(pose(*core.START));nav.waitUntilNav2Active();began=time.monotonic()
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/nav2_simple_commander/robot_navigator.py", line 501, in waitUntilNav2Active
+    self._waitForNodeToActivate(navigator)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/nav2_simple_commander/robot_navigator.py", line 792, in _waitForNodeToActivate
+    time.sleep(2)
+KeyboardInterrupt

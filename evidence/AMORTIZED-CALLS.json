@@ -1,0 +1,17 @@
+[
+  {
+    "method": "model",
+    "unique_physical_calls": 22,
+    "confirmed_episodes": 2
+  },
+  {
+    "method": "random",
+    "unique_physical_calls": 26,
+    "confirmed_episodes": 3
+  },
+  {
+    "method": "fixed",
+    "unique_physical_calls": 8,
+    "confirmed_episodes": 3
+  }
+]

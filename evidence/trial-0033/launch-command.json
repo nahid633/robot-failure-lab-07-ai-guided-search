@@ -1,0 +1,315 @@
+{
+  "command": [
+    "ros2",
+    "launch",
+    "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/seeded_launch.py",
+    "headless:=True",
+    "use_rviz:=False",
+    "use_composition:=False",
+    "params_file:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/params.yaml",
+    "map:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/tb3_sandbox.yaml",
+    "robot_sdf:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/measured_robot.sdf.xacro",
+    "world:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/world.sdf.xacro"
+  ],
+  "bridge": [
+    "ros2",
+    "run",
+    "ros_gz_bridge",
+    "parameter_bridge",
+    "/model/turtlebot3_waffle/pose@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V",
+    "/model/rfl05_obstacle/pose@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V",
+    "/rfl05/contacts@ros_gz_interfaces/msg/Contacts[gz.msgs.Contacts",
+    "/world/default/set_pose@ros_gz_interfaces/srv/SetEntityPose",
+    "--ros-args",
+    "-r",
+    "__node:=failure_lab_07_bridge",
+    "-r",
+    "/model/turtlebot3_waffle/pose:=/rfl05/truth",
+    "-r",
+    "/model/rfl05_obstacle/pose:=/rfl05/obstacle_pose"
+  ],
+  "domain": 48,
+  "request": {
+    "role": "search",
+    "episode": 2,
+    "method": "model",
+    "scenario": {
+      "duration": 1.2,
+      "offset": -0.35,
+      "x": -0.3
+    },
+    "seed": 202,
+    "confirmation": false,
+    "decision": {
+      "reason": "Maximum GP mean + 0.5 posterior standard deviation",
+      "training_trial_ids": [
+        "trial-0001",
+        "trial-0002",
+        "trial-0003",
+        "trial-0004",
+        "trial-0006",
+        "trial-0007",
+        "trial-0008-attempt-2",
+        "trial-0009"
+      ],
+      "ranking": [
+        {
+          "scenario": {
+            "duration": 1.2,
+            "offset": -0.35,
+            "x": -0.3
+          },
+          "mean": 0.8643509468514776,
+          "std": 0.802711246779284,
+          "score": 1.2657065702411197
+        },
+        {
+          "scenario": {
+            "duration": 1.2,
+            "offset": 0.35,
+            "x": -0.3
+          },
+          "mean": 0.8643509468514776,
+          "std": 0.8027112467792838,
+          "score": 1.2657065702411194
+        },
+        {
+          "scenario": {
+            "duration": 1.2,
+            "offset": 0.175,
+            "x": -0.3
+          },
+          "mean": 0.8286631890459611,
+          "std": 0.83957666690197,
+          "score": 1.2484515224969461
+        },
+        {
+          "scenario": {
+            "duration": 1.2,
+            "offset": -0.175,
+            "x": -0.3
+          },
+          "mean": 0.8286631890459611,
+          "std": 0.83957666690197,
+          "score": 1.2484515224969461
+        },
+        {
+          "scenario": {
+            "duration": 1.6,
+            "offset": -0.175,
+            "x": -0.3
+          },
+          "mean": 0.8180436899735886,
+          "std": 0.8325097468287256,
+          "score": 1.2342985633879513
+        },
+        {
+          "scenario": {
+            "duration": 1.6,
+            "offset": 0.175,
+            "x": -0.3
+          },
+          "mean": 0.8180436899735886,
+          "std": 0.8325097468287256,
+          "score": 1.2342985633879513
+        },
+        {
+          "scenario": {
+            "duration": 1.6,
+            "offset": -0.35,
+            "x": -0.3
+          },
+          "mean": 0.8150369771853574,
+          "std": 0.8034377222817802,
+          "score": 1.2167558383262476
+        },
+        {
+          "scenario": {
+            "duration": 1.6,
+            "offset": 0.35,
+            "x": -0.3
+          },
+          "mean": 0.8150369771853573,
+          "std": 0.8034377222817801,
+          "score": 1.2167558383262473
+        },
+        {
+          "scenario": {
+            "duration": 1.6,
+            "offset": 0.0,
+            "x": -0.3
+          },
+          "mean": 0.7960300853584892,
+          "std": 0.8038108084306286,
+          "score": 1.1979354895738035
+        },
+        {
+          "scenario": {
+            "duration": 1.2,
+            "offset": 0.0,
+            "x": -0.3
+          },
+          "mean": 0.7782039375163748,
+          "std": 0.8223257891053853,
+          "score": 1.1893668320690676
+        },
+        {
+          "scenario": {
+            "duration": 0.8,
+            "offset": -0.35,
+            "x": -0.3
+          },
+          "mean": 0.7578368440254253,
+          "std": 0.802880641775297,
+          "score": 1.1592771649130738
+        },
+        {
+          "scenario": {
+            "duration": 0.8,
+            "offset": 0.35,
+            "x": -0.3
+          },
+          "mean": 0.757836844025425,
+          "std": 0.8028806417752972,
+          "score": 1.1592771649130735
+        },
+        {
+          "scenario": {
+            "duration": 0.8,
+            "offset": -0.175,
+            "x": -0.3
+          },
+          "mean": 0.6979830742670512,
+          "std": 0.8463004909307463,
+          "score": 1.1211333197324245
+        },
+        {
+          "scenario": {
+            "duration": 0.8,
+            "offset": 0.175,
+            "x": -0.3
+          },
+          "mean": 0.6979830742670513,
+          "std": 0.8463004909307463,
+          "score": 1.1211333197324245
+        },
+        {
+          "scenario": {
+            "duration": 0.8,
+            "offset": 0.0,
+            "x": -0.3
+          },
+          "mean": 0.6401899431224851,
+          "std": 0.8393396831323556,
+          "score": 1.0598597846886628
+        },
+        {
+          "scenario": {
+            "duration": 0.4,
+            "offset": 0.35,
+            "x": -0.3
+          },
+          "mean": 0.5093137395959991,
+          "std": 0.802711246779284,
+          "score": 0.910669362985641
+        },
+        {
+          "scenario": {
+            "duration": 0.4,
+            "offset": -0.35,
+            "x": -0.3
+          },
+          "mean": 0.509313739595999,
+          "std": 0.802711246779284,
+          "score": 0.910669362985641
+        },
+        {
+          "scenario": {
+            "duration": 0.4,
+            "offset": -0.175,
+            "x": -0.3
+          },
+          "mean": 0.4533095007551359,
+          "std": 0.83957666690197,
+          "score": 0.8730978342061209
+        },
+        {
+          "scenario": {
+            "duration": 0.4,
+            "offset": 0.175,
+            "x": -0.3
+          },
+          "mean": 0.4533095007551359,
+          "std": 0.8395766669019701,
+          "score": 0.8730978342061209
+        },
+        {
+          "scenario": {
+            "duration": 0.4,
+            "offset": 0.0,
+            "x": -0.3
+          },
+          "mean": 0.4168534829115626,
+          "std": 0.8223257891053852,
+          "score": 0.8280163774642553
+        },
+        {
+          "scenario": {
+            "duration": 0.0,
+            "offset": -0.35,
+            "x": -0.3
+          },
+          "mean": 0.23443757468442739,
+          "std": 0.8034377222817801,
+          "score": 0.6361564358253174
+        },
+        {
+          "scenario": {
+            "duration": 0.0,
+            "offset": 0.35,
+            "x": -0.3
+          },
+          "mean": 0.23443757468442739,
+          "std": 0.8034377222817801,
+          "score": 0.6361564358253174
+        },
+        {
+          "scenario": {
+            "duration": 0.0,
+            "offset": 0.175,
+            "x": -0.3
+          },
+          "mean": 0.20422034218188856,
+          "std": 0.8325097468287256,
+          "score": 0.6204752155962514
+        },
+        {
+          "scenario": {
+            "duration": 0.0,
+            "offset": -0.175,
+            "x": -0.3
+          },
+          "mean": 0.2042203421818884,
+          "std": 0.8325097468287256,
+          "score": 0.6204752155962512
+        },
+        {
+          "scenario": {
+            "duration": 0.0,
+            "offset": 0.0,
+            "x": -0.3
+          },
+          "mean": 0.20510650397163727,
+          "std": 0.8038108084306286,
+          "score": 0.6070119081869516
+        }
+      ],
+      "selection_wall_s": 0.00045240700001158984
+    }
+  },
+  "host_load": [
+    1.861328125,
+    1.97998046875,
+    1.953125
+  ]
+}

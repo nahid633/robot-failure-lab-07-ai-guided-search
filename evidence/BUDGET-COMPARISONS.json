@@ -1,0 +1,14 @@
+{
+  "random": {
+    "model_fewer_charged_calls": 0,
+    "baseline_fewer_charged_calls": 3,
+    "equal_confirmed_cost": 0,
+    "both_censored": 0
+  },
+  "fixed": {
+    "model_fewer_charged_calls": 0,
+    "baseline_fewer_charged_calls": 3,
+    "equal_confirmed_cost": 0,
+    "both_censored": 0
+  }
+}

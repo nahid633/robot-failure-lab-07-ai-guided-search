@@ -1,0 +1,1383 @@
+{
+  "passed": true,
+  "trials": {
+    "trial-0001": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 253,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 253,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 253,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 45,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 0,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0002": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 0,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0003": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 0,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0004": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 4,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0005-attempt-2": {
+      "passed": true,
+      "oracle_valid": false,
+      "label": null,
+      "scope": "Navigation did not reach scenario; charged evaluation, no target label and no retry."
+    },
+    "trial-0006": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 4,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0007": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0008-attempt-2": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0009": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0010": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 6,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0011-attempt-2": {
+      "passed": true,
+      "oracle_valid": false,
+      "label": null,
+      "scope": "Navigation did not reach scenario; charged evaluation, no target label and no retry."
+    },
+    "trial-0012": {
+      "passed": true,
+      "oracle_valid": false,
+      "label": null,
+      "scope": "Navigation did not reach scenario; charged evaluation, no target label and no retry."
+    },
+    "trial-0013": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 6,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0014": {
+      "passed": true,
+      "oracle_valid": false,
+      "label": null,
+      "scope": "Navigation did not reach scenario; charged evaluation, no target label and no retry."
+    },
+    "trial-0015": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0016": {
+      "passed": true,
+      "oracle_valid": false,
+      "label": null,
+      "scope": "Navigation did not reach scenario; charged evaluation, no target label and no retry."
+    },
+    "trial-0017": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 6,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0018": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0019": {
+      "passed": true,
+      "oracle_valid": false,
+      "label": null,
+      "scope": "Navigation did not reach scenario; charged evaluation, no target label and no retry."
+    },
+    "trial-0020": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 241,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 241,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 241,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 44,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0021": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 4,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0022": {
+      "passed": true,
+      "oracle_valid": false,
+      "label": null,
+      "scope": "Navigation did not reach scenario; charged evaluation, no target label and no retry."
+    },
+    "trial-0023-attempt-2": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0024": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 4,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0025": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 4,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0026": {
+      "passed": true,
+      "oracle_valid": false,
+      "label": null,
+      "scope": "Navigation did not reach scenario; charged evaluation, no target label and no retry."
+    },
+    "trial-0027-attempt-2": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 6,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0028": {
+      "passed": true,
+      "oracle_valid": false,
+      "label": null,
+      "scope": "Navigation did not reach scenario; charged evaluation, no target label and no retry."
+    },
+    "trial-0029": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0030-attempt-2": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 239,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 239,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 239,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0031": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 238,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 238,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 238,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 6,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0032": {
+      "passed": true,
+      "oracle_valid": false,
+      "label": null,
+      "scope": "Navigation did not reach scenario; charged evaluation, no target label and no retry."
+    },
+    "trial-0033": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 6,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0034": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 6,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0035": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0036": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 6,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0037": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0038": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 239,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 239,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 239,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0039": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 6,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0040-attempt-2": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0041": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0042-attempt-2": {
+      "passed": true,
+      "oracle_valid": false,
+      "label": null,
+      "scope": "Navigation did not reach scenario; charged evaluation, no target label and no retry."
+    },
+    "trial-0043": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 0,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0044": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0045": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 6,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0046": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 234,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 234,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 234,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 2,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0047": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0048": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 2,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0049": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0050": {
+      "passed": true,
+      "oracle_valid": false,
+      "label": null,
+      "scope": "Navigation did not reach scenario; charged evaluation, no target label and no retry."
+    },
+    "trial-0051": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 241,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 241,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 241,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 6,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0052": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 6,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0053": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 4,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0054": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 42,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 0,
+      "positive_contact_label": 0,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0055": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 235,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    },
+    "trial-0056": {
+      "passed": true,
+      "coverage": {
+        "world": {
+          "samples": 236,
+          "max_gap_s": 0.036000000000001364
+        },
+        "odom": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "obstacle": {
+          "samples": 237,
+          "max_gap_s": 0.036000000000001364
+        },
+        "scans": {
+          "samples": 43,
+          "max_gap_s": 0.2010000000000005
+        }
+      },
+      "upstream_obstacle_hit_scans": 5,
+      "fault_messages": 8,
+      "positive_contact_label": 1,
+      "cancellation_ack_missing": false,
+      "label_scope": "Observed obstacle-specific contact by onset+6s; event absence is not a physical no-contact certificate."
+    }
+  },
+  "runtime_parameters_identical": true,
+  "source_input_hashes_match": true,
+  "model_visibility_and_decision_replay_passed": true,
+  "policy_budgets_passed": true,
+  "physical_main_calls": 56,
+  "ledger": [
+    {
+      "episode": 1,
+      "method": "model",
+      "confirmed": false,
+      "heldout_calls": 6,
+      "training_charge": 9,
+      "charged_calls": 15,
+      "charged_wall_s": 997.8195950039997,
+      "confirmed_scenario": null,
+      "terminal_trials": []
+    },
+    {
+      "episode": 1,
+      "method": "random",
+      "confirmed": true,
+      "heldout_calls": 12,
+      "training_charge": 0,
+      "charged_calls": 12,
+      "charged_wall_s": 804.0880799550002,
+      "confirmed_scenario": {
+        "duration": 1.6,
+        "offset": -0.175,
+        "x": -0.3
+      },
+      "terminal_trials": [
+        "trial-0029",
+        "trial-0030-attempt-2"
+      ]
+    },
+    {
+      "episode": 1,
+      "method": "fixed",
+      "confirmed": true,
+      "heldout_calls": 3,
+      "training_charge": 0,
+      "charged_calls": 3,
+      "charged_wall_s": 157.8821112209996,
+      "confirmed_scenario": {
+        "duration": 1.6,
+        "offset": -0.175,
+        "x": -0.3
+      },
+      "terminal_trials": [
+        "trial-0015",
+        "trial-0018"
+      ]
+    },
+    {
+      "episode": 2,
+      "method": "model",
+      "confirmed": true,
+      "heldout_calls": 3,
+      "training_charge": 9,
+      "charged_calls": 12,
+      "charged_wall_s": 720.9752319500001,
+      "confirmed_scenario": {
+        "duration": 1.2,
+        "offset": 0.35,
+        "x": -0.3
+      },
+      "terminal_trials": [
+        "trial-0036",
+        "trial-0039"
+      ]
+    },
+    {
+      "episode": 2,
+      "method": "random",
+      "confirmed": true,
+      "heldout_calls": 4,
+      "training_charge": 0,
+      "charged_calls": 4,
+      "charged_wall_s": 262.2285877730001,
+      "confirmed_scenario": {
+        "duration": 1.6,
+        "offset": -0.175,
+        "x": -0.3
+      },
+      "terminal_trials": [
+        "trial-0037",
+        "trial-0040-attempt-2"
+      ]
+    },
+    {
+      "episode": 2,
+      "method": "fixed",
+      "confirmed": true,
+      "heldout_calls": 3,
+      "training_charge": 0,
+      "charged_calls": 3,
+      "charged_wall_s": 154.67388354500054,
+      "confirmed_scenario": {
+        "duration": 1.6,
+        "offset": -0.175,
+        "x": -0.3
+      },
+      "terminal_trials": [
+        "trial-0035",
+        "trial-0038"
+      ]
+    },
+    {
+      "episode": 3,
+      "method": "model",
+      "confirmed": true,
+      "heldout_calls": 4,
+      "training_charge": 9,
+      "charged_calls": 13,
+      "charged_wall_s": 905.4660069370004,
+      "confirmed_scenario": {
+        "duration": 1.6,
+        "offset": -0.35,
+        "x": -0.3
+      },
+      "terminal_trials": [
+        "trial-0047",
+        "trial-0049"
+      ]
+    },
+    {
+      "episode": 3,
+      "method": "random",
+      "confirmed": true,
+      "heldout_calls": 10,
+      "training_charge": 0,
+      "charged_calls": 10,
+      "charged_wall_s": 446.47828656699903,
+      "confirmed_scenario": {
+        "duration": 1.6,
+        "offset": -0.35,
+        "x": -0.3
+      },
+      "terminal_trials": [
+        "trial-0055",
+        "trial-0056"
+      ]
+    },
+    {
+      "episode": 3,
+      "method": "fixed",
+      "confirmed": true,
+      "heldout_calls": 2,
+      "training_charge": 0,
+      "charged_calls": 2,
+      "charged_wall_s": 83.88046760099996,
+      "confirmed_scenario": {
+        "duration": 1.6,
+        "offset": 0.0,
+        "x": -0.3
+      },
+      "terminal_trials": [
+        "trial-0041",
+        "trial-0044"
+      ]
+    }
+  ]
+}

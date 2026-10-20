@@ -1,0 +1,15 @@
+[INFO] [1792510083.341561455] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792510085.357098571] [basic_navigator]: Setting initial pose
+[INFO] [1792510085.359205345] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792510085.359846846] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792510085.360647488] [basic_navigator]: Setting initial pose
+[INFO] [1792510085.362315048] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792510085.362915925] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792510085.363672040] [basic_navigator]: Setting initial pose
+[INFO] [1792510085.365125233] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792510085.365997549] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792510089.375796294] [basic_navigator]: Nav2 is ready for use!
+[INFO] [1792510091.233717247] [basic_navigator]: Navigating to goal: 1.0 0.5...
+Scenario starts at goal +10.866s
+[INFO] [1792510104.590295173] [basic_navigator]: Canceling current task.
+{"scenario": {"duration": 0.0, "offset": -0.175, "x": -0.3}, "oracle_valid": true, "unreached_reason": null, "start_sim_s": 13.473, "window_start": 24.339, "appearance": 24.552, "cutoff": 30.339, "observed_cutoff": 30.378, "observation_end": 32.52, "obstacle_request_time": 24.543, "obstacle_service_success": true, "goal_accepted": true, "natural_terminal": null, "cancel_requested": true, "terminal_action_status": 5, "label": 0, "contact_messages_in_label_window": 0, "first_contact_after_appearance_s": null, "min_sampled_envelope_clearance_m": 0.15213695915297215, "stop_after_appearance_s": null, "graph": {"/scan": {"publishers": ["ros_gz_bridge"], "subscribers": ["failure_lab_05_observer"]}, "/rfl05/localization_scan": {"publishers": ["failure_lab_05_observer"], "subscribers": ["amcl", "failure_lab_05_observer"]}, "/rfl05/obstacle_scan": {"publishers": ["failure_lab_05_observer"], "subscribers": ["local_costmap", "global_costmap", "collision_monitor", "failure_lab_05_observer"]}, "/rfl05/truth": {"publishers": ["failure_lab_07_bridge"], "subscribers": ["failure_lab_05_observer"]}, "/rfl05/obstacle_pose": {"publishers": ["failure_lab_07_bridge"], "subscribers": ["failure_lab_05_observer"]}, "/rfl05/contacts": {"publishers": ["failure_lab_07_bridge"], "subscribers": ["failure_lab_05_observer"]}}, "graph_end": {"/scan": {"publishers": ["ros_gz_bridge"], "subscribers": ["failure_lab_05_observer"]}, "/rfl05/localization_scan": {"publishers": ["failure_lab_05_observer"], "subscribers": ["amcl", "failure_lab_05_observer"]}, "/rfl05/obstacle_scan": {"publishers": ["failure_lab_05_observer"], "subscribers": ["local_costmap", "global_costmap", "collision_monitor", "failure_lab_05_observer"]}, "/rfl05/truth": {"publishers": ["failure_lab_07_bridge"], "subscribers": ["failure_lab_05_observer"]}, "/rfl05/obstacle_pose": {"publishers": ["failure_lab_07_bridge"], "subscribers": ["failure_lab_05_observer"]}, "/rfl05/contacts": {"publishers": ["failure_lab_07_bridge"], "subscribers": ["failure_lab_05_observer"]}}, "sensor_offset": [-0.064, 0.0, 0.0], "worker_wall_s": 19.240236504999757}

@@ -1,0 +1,83 @@
+[
+  {
+    "method": "model",
+    "episode": 1,
+    "positive_calls": 1,
+    "zero_event_calls": 3,
+    "missing_label_calls": 2,
+    "confirmations_attempted": 0,
+    "confirmed": false
+  },
+  {
+    "method": "random",
+    "episode": 1,
+    "positive_calls": 4,
+    "zero_event_calls": 3,
+    "missing_label_calls": 5,
+    "confirmations_attempted": 3,
+    "confirmed": true
+  },
+  {
+    "method": "fixed",
+    "episode": 1,
+    "positive_calls": 2,
+    "zero_event_calls": 0,
+    "missing_label_calls": 1,
+    "confirmations_attempted": 1,
+    "confirmed": true
+  },
+  {
+    "method": "model",
+    "episode": 2,
+    "positive_calls": 2,
+    "zero_event_calls": 1,
+    "missing_label_calls": 0,
+    "confirmations_attempted": 1,
+    "confirmed": true
+  },
+  {
+    "method": "random",
+    "episode": 2,
+    "positive_calls": 2,
+    "zero_event_calls": 2,
+    "missing_label_calls": 0,
+    "confirmations_attempted": 1,
+    "confirmed": true
+  },
+  {
+    "method": "fixed",
+    "episode": 2,
+    "positive_calls": 2,
+    "zero_event_calls": 0,
+    "missing_label_calls": 1,
+    "confirmations_attempted": 1,
+    "confirmed": true
+  },
+  {
+    "method": "model",
+    "episode": 3,
+    "positive_calls": 2,
+    "zero_event_calls": 1,
+    "missing_label_calls": 1,
+    "confirmations_attempted": 1,
+    "confirmed": true
+  },
+  {
+    "method": "random",
+    "episode": 3,
+    "positive_calls": 3,
+    "zero_event_calls": 6,
+    "missing_label_calls": 1,
+    "confirmations_attempted": 2,
+    "confirmed": true
+  },
+  {
+    "method": "fixed",
+    "episode": 3,
+    "positive_calls": 2,
+    "zero_event_calls": 0,
+    "missing_label_calls": 0,
+    "confirmations_attempted": 1,
+    "confirmed": true
+  }
+]

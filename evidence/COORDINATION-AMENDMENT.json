@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-20",
+  "preserved_outcomes": [
+    "trial-0001",
+    "trial-0002",
+    "trial-0003",
+    "trial-0004",
+    "trial-0005-attempt-2",
+    "trial-0006",
+    "trial-0007",
+    "trial-0008-attempt-2",
+    "trial-0009",
+    "trial-0010"
+  ],
+  "reason": "Original --resume loop restarts at first eligible policy instead of interrupted round-robin slot. Reconstruct declared order by replaying prior outcomes, then execute the pending saved request.",
+  "unchanged": "Original frozen worker/model/policy/configuration/source files; no completed outcome retried. Same declared policy order, budgets, scenarios, confirmation and visibility rules.",
+  "adapter_sha256": "550feca7bf49e10faa3b70f8efdc6da91300c77ab9da162f97225ba5ddec2b39",
+  "new_protocol_scope": "Coordination-only amendment to implement the existing declared sequence; not a change of treatments or selected scenarios."
+}

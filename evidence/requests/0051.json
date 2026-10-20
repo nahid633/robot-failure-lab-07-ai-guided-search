@@ -1,0 +1,16 @@
+{
+  "role": "search",
+  "episode": 3,
+  "method": "random",
+  "scenario": {
+    "duration": 1.2,
+    "offset": 0.35,
+    "x": -0.3
+  },
+  "seed": 203,
+  "confirmation": false,
+  "decision": {
+    "reason": "Frozen seeded random permutation",
+    "selection_wall_s": 0.0003538569999363972
+  }
+}

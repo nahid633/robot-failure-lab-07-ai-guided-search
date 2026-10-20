@@ -1,0 +1,277 @@
+{
+  "command": [
+    "ros2",
+    "launch",
+    "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/seeded_launch.py",
+    "headless:=True",
+    "use_rviz:=False",
+    "use_composition:=False",
+    "params_file:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/params.yaml",
+    "map:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/tb3_sandbox.yaml",
+    "robot_sdf:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/measured_robot.sdf.xacro",
+    "world:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/world.sdf.xacro"
+  ],
+  "bridge": [
+    "ros2",
+    "run",
+    "ros_gz_bridge",
+    "parameter_bridge",
+    "/model/turtlebot3_waffle/pose@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V",
+    "/model/rfl05_obstacle/pose@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V",
+    "/rfl05/contacts@ros_gz_interfaces/msg/Contacts[gz.msgs.Contacts",
+    "/world/default/set_pose@ros_gz_interfaces/srv/SetEntityPose",
+    "--ros-args",
+    "-r",
+    "__node:=failure_lab_07_bridge",
+    "-r",
+    "/model/turtlebot3_waffle/pose:=/rfl05/truth",
+    "-r",
+    "/model/rfl05_obstacle/pose:=/rfl05/obstacle_pose"
+  ],
+  "domain": 33,
+  "request": {
+    "role": "search",
+    "episode": 1,
+    "method": "model",
+    "scenario": {
+      "duration": 0.8,
+      "offset": 0.0,
+      "x": -0.3
+    },
+    "seed": 201,
+    "confirmation": false,
+    "decision": {
+      "reason": "Maximum GP mean + 0.5 posterior standard deviation",
+      "training_trial_ids": [
+        "trial-0001",
+        "trial-0002",
+        "trial-0003",
+        "trial-0004",
+        "trial-0006",
+        "trial-0007",
+        "trial-0008-attempt-2",
+        "trial-0009",
+        "trial-0010",
+        "trial-0013"
+      ],
+      "ranking": [
+        {
+          "scenario": {
+            "duration": 0.8,
+            "offset": 0.0,
+            "x": -0.3
+          },
+          "mean": 0.19095875233208937,
+          "std": 0.7818636936497612,
+          "score": 0.58189059915697
+        },
+        {
+          "scenario": {
+            "duration": 1.6,
+            "offset": 0.175,
+            "x": -0.3
+          },
+          "mean": 0.22321048871212357,
+          "std": 0.643770262831403,
+          "score": 0.5450956201278251
+        },
+        {
+          "scenario": {
+            "duration": 1.6,
+            "offset": -0.175,
+            "x": -0.3
+          },
+          "mean": 0.22321048871212334,
+          "std": 0.6437702628314029,
+          "score": 0.5450956201278248
+        },
+        {
+          "scenario": {
+            "duration": 1.2,
+            "offset": 0.175,
+            "x": -0.3
+          },
+          "mean": 0.17446416375090013,
+          "std": 0.6068373738187546,
+          "score": 0.4778828506602774
+        },
+        {
+          "scenario": {
+            "duration": 1.2,
+            "offset": -0.175,
+            "x": -0.3
+          },
+          "mean": 0.17446416375089974,
+          "std": 0.6068373738187546,
+          "score": 0.477882850660277
+        },
+        {
+          "scenario": {
+            "duration": 0.4,
+            "offset": 0.0,
+            "x": -0.3
+          },
+          "mean": 0.07276503524287936,
+          "std": 0.7883862108496125,
+          "score": 0.4669581406676856
+        },
+        {
+          "scenario": {
+            "duration": 0.8,
+            "offset": 0.175,
+            "x": -0.3
+          },
+          "mean": 0.09947420070350882,
+          "std": 0.6594027751667844,
+          "score": 0.429175588286901
+        },
+        {
+          "scenario": {
+            "duration": 0.8,
+            "offset": -0.175,
+            "x": -0.3
+          },
+          "mean": 0.0994742007035086,
+          "std": 0.6594027751667841,
+          "score": 0.42917558828690067
+        },
+        {
+          "scenario": {
+            "duration": 0.0,
+            "offset": 0.0,
+            "x": -0.3
+          },
+          "mean": -0.016840619610002383,
+          "std": 0.7895359140968434,
+          "score": 0.37792733743841933
+        },
+        {
+          "scenario": {
+            "duration": 0.4,
+            "offset": 0.175,
+            "x": -0.3
+          },
+          "mean": -0.004143883569831419,
+          "std": 0.7353587005179157,
+          "score": 0.36353546668912645
+        },
+        {
+          "scenario": {
+            "duration": 0.4,
+            "offset": -0.175,
+            "x": -0.3
+          },
+          "mean": -0.004143883569831641,
+          "std": 0.7353587005179157,
+          "score": 0.36353546668912623
+        },
+        {
+          "scenario": {
+            "duration": 0.0,
+            "offset": 0.175,
+            "x": -0.3
+          },
+          "mean": -0.08997380975309999,
+          "std": 0.790785915989265,
+          "score": 0.3054191482415325
+        },
+        {
+          "scenario": {
+            "duration": 0.0,
+            "offset": -0.175,
+            "x": -0.3
+          },
+          "mean": -0.0899738097531001,
+          "std": 0.790785915989265,
+          "score": 0.3054191482415324
+        },
+        {
+          "scenario": {
+            "duration": 1.6,
+            "offset": 0.35,
+            "x": -0.3
+          },
+          "mean": 0.07367487630681102,
+          "std": 0.3775663191729939,
+          "score": 0.26245803589330796
+        },
+        {
+          "scenario": {
+            "duration": 1.6,
+            "offset": -0.35,
+            "x": -0.3
+          },
+          "mean": 0.07367487630681074,
+          "std": 0.37756631917299405,
+          "score": 0.26245803589330774
+        },
+        {
+          "scenario": {
+            "duration": 0.4,
+            "offset": 0.35,
+            "x": -0.3
+          },
+          "mean": -0.058197808218167,
+          "std": 0.5913367416035047,
+          "score": 0.23747056258358534
+        },
+        {
+          "scenario": {
+            "duration": 0.4,
+            "offset": -0.35,
+            "x": -0.3
+          },
+          "mean": -0.058197808218167335,
+          "std": 0.5913367416035047,
+          "score": 0.237470562583585
+        },
+        {
+          "scenario": {
+            "duration": 0.0,
+            "offset": -0.35,
+            "x": -0.3
+          },
+          "mean": -0.12961320917606878,
+          "std": 0.7240770325849876,
+          "score": 0.232425307116425
+        },
+        {
+          "scenario": {
+            "duration": 0.0,
+            "offset": 0.35,
+            "x": -0.3
+          },
+          "mean": -0.12961320917606878,
+          "std": 0.7240770325849873,
+          "score": 0.2324253071164249
+        },
+        {
+          "scenario": {
+            "duration": 0.8,
+            "offset": 0.35,
+            "x": -0.3
+          },
+          "mean": 0.01399400903990633,
+          "std": 0.3719251302112813,
+          "score": 0.199956574145547
+        },
+        {
+          "scenario": {
+            "duration": 0.8,
+            "offset": -0.35,
+            "x": -0.3
+          },
+          "mean": 0.013994009039906052,
+          "std": 0.3719251302112806,
+          "score": 0.19995657414554635
+        }
+      ],
+      "selection_wall_s": 0.0005099309998968238
+    }
+  },
+  "host_load": [
+    2.494140625,
+    2.546875,
+    1.79541015625
+  ]
+}

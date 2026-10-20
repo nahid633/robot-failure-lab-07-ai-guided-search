@@ -1,0 +1,16 @@
+{
+  "role": "search",
+  "episode": 3,
+  "method": "fixed",
+  "scenario": {
+    "duration": 1.6,
+    "offset": 0.0,
+    "x": -0.3
+  },
+  "seed": 203,
+  "confirmation": false,
+  "decision": {
+    "reason": "Frozen risk-ordered sweep",
+    "selection_wall_s": 0.00011471400011942023
+  }
+}

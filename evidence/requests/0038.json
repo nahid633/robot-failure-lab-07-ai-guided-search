@@ -1,0 +1,16 @@
+{
+  "role": "search",
+  "episode": 2,
+  "method": "fixed",
+  "scenario": {
+    "duration": 1.6,
+    "offset": -0.175,
+    "x": -0.3
+  },
+  "seed": 302,
+  "confirmation": true,
+  "decision": {
+    "reason": "Confirm last positive using a new simulator seed",
+    "selection_wall_s": 1.398000222252449e-06
+  }
+}

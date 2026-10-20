@@ -1,0 +1,687 @@
+{
+  "groups": [
+    {
+      "scenario": {
+        "duration": 0.0,
+        "offset": -0.35,
+        "x": -0.6
+      },
+      "observations": [
+        {
+          "trial": "trial-0001",
+          "method": "training",
+          "episode": null,
+          "seed": 120,
+          "label": 0,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 0.0,
+        "offset": 0.0,
+        "x": -0.6
+      },
+      "observations": [
+        {
+          "trial": "trial-0002",
+          "method": "training",
+          "episode": null,
+          "seed": 121,
+          "label": 0,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 0.0,
+        "offset": 0.35,
+        "x": -0.6
+      },
+      "observations": [
+        {
+          "trial": "trial-0003",
+          "method": "training",
+          "episode": null,
+          "seed": 122,
+          "label": 0,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 0.8,
+        "offset": -0.35,
+        "x": -0.6
+      },
+      "observations": [
+        {
+          "trial": "trial-0004",
+          "method": "training",
+          "episode": null,
+          "seed": 123,
+          "label": 1,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 0.8,
+        "offset": 0.0,
+        "x": -0.6
+      },
+      "observations": [
+        {
+          "trial": "trial-0005-attempt-2",
+          "method": "training",
+          "episode": null,
+          "seed": 124,
+          "label": null,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 0.8,
+        "offset": 0.35,
+        "x": -0.6
+      },
+      "observations": [
+        {
+          "trial": "trial-0006",
+          "method": "training",
+          "episode": null,
+          "seed": 125,
+          "label": 1,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 1.6,
+        "offset": -0.35,
+        "x": -0.6
+      },
+      "observations": [
+        {
+          "trial": "trial-0007",
+          "method": "training",
+          "episode": null,
+          "seed": 126,
+          "label": 1,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 1.6,
+        "offset": 0.0,
+        "x": -0.6
+      },
+      "observations": [
+        {
+          "trial": "trial-0008-attempt-2",
+          "method": "training",
+          "episode": null,
+          "seed": 127,
+          "label": 1,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 1.6,
+        "offset": 0.35,
+        "x": -0.6
+      },
+      "observations": [
+        {
+          "trial": "trial-0009",
+          "method": "training",
+          "episode": null,
+          "seed": 128,
+          "label": 1,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 1.2,
+        "offset": -0.35,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0010",
+          "method": "model",
+          "episode": 1,
+          "seed": 201,
+          "label": 0,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0017",
+          "method": "random",
+          "episode": 1,
+          "seed": 201,
+          "label": 0,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0033",
+          "method": "model",
+          "episode": 2,
+          "seed": 202,
+          "label": 0,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0042-attempt-2",
+          "method": "model",
+          "episode": 3,
+          "seed": 203,
+          "label": null,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 0.4,
+        "offset": 0.35,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0011-attempt-2",
+          "method": "random",
+          "episode": 1,
+          "seed": 201,
+          "label": null,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0048",
+          "method": "random",
+          "episode": 3,
+          "seed": 203,
+          "label": 0,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 1.6,
+        "offset": 0.0,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0012",
+          "method": "fixed",
+          "episode": 1,
+          "seed": 201,
+          "label": null,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0016",
+          "method": "model",
+          "episode": 1,
+          "seed": 201,
+          "label": null,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0032",
+          "method": "fixed",
+          "episode": 2,
+          "seed": 202,
+          "label": null,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0041",
+          "method": "fixed",
+          "episode": 3,
+          "seed": 203,
+          "label": 1,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0044",
+          "method": "fixed",
+          "episode": 3,
+          "seed": 303,
+          "label": 1,
+          "confirmation": true
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 1.2,
+        "offset": 0.35,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0013",
+          "method": "model",
+          "episode": 1,
+          "seed": 201,
+          "label": 0,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0036",
+          "method": "model",
+          "episode": 2,
+          "seed": 202,
+          "label": 1,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0039",
+          "method": "model",
+          "episode": 2,
+          "seed": 302,
+          "label": 1,
+          "confirmation": true
+        },
+        {
+          "trial": "trial-0045",
+          "method": "model",
+          "episode": 3,
+          "seed": 203,
+          "label": 0,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0051",
+          "method": "random",
+          "episode": 3,
+          "seed": 203,
+          "label": 1,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0052",
+          "method": "random",
+          "episode": 3,
+          "seed": 303,
+          "label": 0,
+          "confirmation": true
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 0.0,
+        "offset": 0.0,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0014",
+          "method": "random",
+          "episode": 1,
+          "seed": 201,
+          "label": null,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0054",
+          "method": "random",
+          "episode": 3,
+          "seed": 203,
+          "label": 0,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 1.6,
+        "offset": -0.175,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0015",
+          "method": "fixed",
+          "episode": 1,
+          "seed": 201,
+          "label": 1,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0018",
+          "method": "fixed",
+          "episode": 1,
+          "seed": 301,
+          "label": 1,
+          "confirmation": true
+        },
+        {
+          "trial": "trial-0029",
+          "method": "random",
+          "episode": 1,
+          "seed": 201,
+          "label": 1,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0030-attempt-2",
+          "method": "random",
+          "episode": 1,
+          "seed": 301,
+          "label": 1,
+          "confirmation": true
+        },
+        {
+          "trial": "trial-0035",
+          "method": "fixed",
+          "episode": 2,
+          "seed": 202,
+          "label": 1,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0037",
+          "method": "random",
+          "episode": 2,
+          "seed": 202,
+          "label": 1,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0038",
+          "method": "fixed",
+          "episode": 2,
+          "seed": 302,
+          "label": 1,
+          "confirmation": true
+        },
+        {
+          "trial": "trial-0040-attempt-2",
+          "method": "random",
+          "episode": 2,
+          "seed": 302,
+          "label": 1,
+          "confirmation": true
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 1.2,
+        "offset": 0.0,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0019",
+          "method": "model",
+          "episode": 1,
+          "seed": 201,
+          "label": null,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0026",
+          "method": "random",
+          "episode": 1,
+          "seed": 201,
+          "label": null,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0034",
+          "method": "random",
+          "episode": 2,
+          "seed": 202,
+          "label": 0,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 1.6,
+        "offset": 0.35,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0020",
+          "method": "random",
+          "episode": 1,
+          "seed": 201,
+          "label": 1,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0022",
+          "method": "random",
+          "episode": 1,
+          "seed": 301,
+          "label": null,
+          "confirmation": true
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 0.8,
+        "offset": 0.0,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0021",
+          "method": "model",
+          "episode": 1,
+          "seed": 201,
+          "label": 0,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0050",
+          "method": "random",
+          "episode": 3,
+          "seed": 203,
+          "label": null,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 1.6,
+        "offset": 0.175,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0023-attempt-2",
+          "method": "model",
+          "episode": 1,
+          "seed": 201,
+          "label": 1,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 0.8,
+        "offset": 0.175,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0024",
+          "method": "random",
+          "episode": 1,
+          "seed": 201,
+          "label": 0,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 0.8,
+        "offset": 0.35,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0025",
+          "method": "random",
+          "episode": 1,
+          "seed": 201,
+          "label": 0,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 1.2,
+        "offset": -0.175,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0027-attempt-2",
+          "method": "random",
+          "episode": 1,
+          "seed": 201,
+          "label": 1,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0028",
+          "method": "random",
+          "episode": 1,
+          "seed": 301,
+          "label": null,
+          "confirmation": true
+        },
+        {
+          "trial": "trial-0031",
+          "method": "random",
+          "episode": 2,
+          "seed": 202,
+          "label": 0,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 0.0,
+        "offset": -0.175,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0043",
+          "method": "random",
+          "episode": 3,
+          "seed": 203,
+          "label": 0,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 0.4,
+        "offset": -0.175,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0046",
+          "method": "random",
+          "episode": 3,
+          "seed": 203,
+          "label": 0,
+          "confirmation": false
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 1.6,
+        "offset": -0.35,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0047",
+          "method": "model",
+          "episode": 3,
+          "seed": 203,
+          "label": 1,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0049",
+          "method": "model",
+          "episode": 3,
+          "seed": 303,
+          "label": 1,
+          "confirmation": true
+        },
+        {
+          "trial": "trial-0055",
+          "method": "random",
+          "episode": 3,
+          "seed": 203,
+          "label": 1,
+          "confirmation": false
+        },
+        {
+          "trial": "trial-0056",
+          "method": "random",
+          "episode": 3,
+          "seed": 303,
+          "label": 1,
+          "confirmation": true
+        }
+      ]
+    },
+    {
+      "scenario": {
+        "duration": 0.8,
+        "offset": -0.175,
+        "x": -0.3
+      },
+      "observations": [
+        {
+          "trial": "trial-0053",
+          "method": "random",
+          "episode": 3,
+          "seed": 203,
+          "label": 0,
+          "confirmation": false
+        }
+      ]
+    }
+  ],
+  "note": "Post-hoc repeated-scenario observations only. Adaptive/fixed selections and confirmation repeats are not an unbiased failure-rate sample. Later other-policy results do not retroactively confirm an earlier budget-exhausted search."
+}

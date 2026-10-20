@@ -1,0 +1,1 @@
+AssertionError('Worker failed; inspect all retained logs')

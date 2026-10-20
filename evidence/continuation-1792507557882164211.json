@@ -1,0 +1,19 @@
+{
+  "command": [
+    "run.py",
+    "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main",
+    "--phase",
+    "main",
+    "--verification-root",
+    "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/verification-v4",
+    "--calibration-root",
+    "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-05/excluded-checks/contact-v4",
+    "--resume-infrastructure"
+  ],
+  "preserved": [
+    "trial-0001",
+    "trial-0002",
+    "trial-0003",
+    "trial-0004"
+  ]
+}

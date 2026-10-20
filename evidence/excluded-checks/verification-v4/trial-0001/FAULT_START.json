@@ -1,0 +1,1 @@
+{"t": 27.24, "world_pose": {"t": 27.216, "stamp": 27.216, "x": -1.2816926475094246, "y": 0.5910957540643619, "yaw": -0.006942455653806095, "frame": "default", "child": "turtlebot3_waffle"}, "cached_origin": 104, "cached_stamp": 27.201, "cached_hash": "01f1509ea5df9255f4daf7d1d02cda43520e4f9ca882b3bb1a6f362f6b680dc9", "scenario": {"duration": 0.0, "offset": 0.0, "x": -0.6}}

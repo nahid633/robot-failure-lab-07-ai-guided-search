@@ -1,0 +1,53 @@
+{
+  "command": [
+    "ros2",
+    "launch",
+    "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/seeded_launch.py",
+    "headless:=True",
+    "use_rviz:=False",
+    "use_composition:=False",
+    "params_file:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/params.yaml",
+    "map:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/tb3_sandbox.yaml",
+    "robot_sdf:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/measured_robot.sdf.xacro",
+    "world:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/world.sdf.xacro"
+  ],
+  "bridge": [
+    "ros2",
+    "run",
+    "ros_gz_bridge",
+    "parameter_bridge",
+    "/model/turtlebot3_waffle/pose@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V",
+    "/model/rfl05_obstacle/pose@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V",
+    "/rfl05/contacts@ros_gz_interfaces/msg/Contacts[gz.msgs.Contacts",
+    "/world/default/set_pose@ros_gz_interfaces/srv/SetEntityPose",
+    "--ros-args",
+    "-r",
+    "__node:=failure_lab_07_bridge",
+    "-r",
+    "/model/turtlebot3_waffle/pose:=/rfl05/truth",
+    "-r",
+    "/model/rfl05_obstacle/pose:=/rfl05/obstacle_pose"
+  ],
+  "domain": 63,
+  "request": {
+    "role": "search",
+    "episode": 3,
+    "method": "random",
+    "scenario": {
+      "duration": 0.4,
+      "offset": -0.175,
+      "x": -0.3
+    },
+    "seed": 203,
+    "confirmation": false,
+    "decision": {
+      "reason": "Frozen seeded random permutation",
+      "selection_wall_s": 0.0005850489997101249
+    }
+  },
+  "host_load": [
+    2.6708984375,
+    4.33935546875,
+    3.4931640625
+  ]
+}

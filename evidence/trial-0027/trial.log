@@ -1,0 +1,84 @@
+[INFO] [1792508962.822765629] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508963.832991992] [basic_navigator]: amcl/get_state service not available, waiting...
+[INFO] [1792508964.835420683] [basic_navigator]: amcl/get_state service not available, waiting...
+[INFO] [1792508967.087513305] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.088107942] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.088816175] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.090230054] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.090670198] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.091286034] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.091795564] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.092561357] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.093713916] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.094377723] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.094761827] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.095197908] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.096935776] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.097326965] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.097735096] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.099371553] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.099769924] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.100193850] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.102397714] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.102849048] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.103301455] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.105350964] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.105774142] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.106367100] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.109847820] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.111071445] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.111638836] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.112683107] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.113119459] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.114421658] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.115259641] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.115694628] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.116237970] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.117824974] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.118258802] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.118739745] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.121128875] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.121574955] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.122209621] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.123802962] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.124281456] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.124927497] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.126650816] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.127127241] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.127629448] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.129534289] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.130050720] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.130580390] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.133279654] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.133703385] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.134368168] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.136427480] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.136979845] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.138540818] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.139449575] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.139979363] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.142190873] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.142902650] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.145352469] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.146021248] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.147752866] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.148224968] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.148769284] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508967.151528153] [basic_navigator]: Setting initial pose
+[INFO] [1792508967.151978545] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792508967.153531847] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792508973.160156192] [basic_navigator]: Nav2 is ready for use!
+Traceback (most recent call last):
+  File "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/worker.py", line 109, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/worker.py", line 33, in main
+    effective=parameter_snapshot(nav);(a.output/'effective-before.json').write_text(json.dumps(effective,indent=2))
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/support.py", line 20, in parameter_snapshot
+    names=call(node,'list_parameters',ListParameters,ListParameters.Request()).result.names
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/support.py", line 11, in call
+    if not client.wait_for_service(timeout_sec=5): raise RuntimeError(f'Missing {node}/{service}')
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Missing /amcl/list_parameters

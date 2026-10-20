@@ -1,0 +1,28 @@
+[INFO] [1792509545.541721917] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792509546.554657933] [basic_navigator]: amcl/get_state service not available, waiting...
+[INFO] [1792509549.057275306] [basic_navigator]: Setting initial pose
+[INFO] [1792509549.057839804] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792509549.058668762] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792509549.060518572] [basic_navigator]: Setting initial pose
+[INFO] [1792509549.061037255] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792509549.061591897] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792509549.063002298] [basic_navigator]: Setting initial pose
+[INFO] [1792509549.063516271] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792509549.071090873] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792509549.072574485] [basic_navigator]: Setting initial pose
+[INFO] [1792509549.073013242] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792509549.073479406] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792509549.075104112] [basic_navigator]: Setting initial pose
+[INFO] [1792509549.075559724] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792509549.076037385] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792509549.079534985] [basic_navigator]: Setting initial pose
+[INFO] [1792509549.080139154] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792509549.081815066] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792509549.082630237] [basic_navigator]: Setting initial pose
+[INFO] [1792509549.083937614] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792509549.085115046] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792509552.616026662] [basic_navigator]: Nav2 is ready for use!
+[INFO] [1792509554.475591864] [basic_navigator]: Navigating to goal: 1.0 0.5...
+Scenario starts at goal +10.359s
+[INFO] [1792509570.972900347] [basic_navigator]: Canceling current task.
+{"scenario": {"duration": 1.2, "offset": 0.35, "x": -0.3}, "oracle_valid": true, "unreached_reason": null, "start_sim_s": 16.689, "window_start": 27.048, "appearance": 27.288, "cutoff": 33.048, "observed_cutoff": 33.09, "observation_end": 35.196, "obstacle_request_time": 27.252, "obstacle_service_success": true, "goal_accepted": true, "natural_terminal": null, "cancel_requested": true, "terminal_action_status": 5, "label": 1, "contact_messages_in_label_window": 27, "first_contact_after_appearance_s": 1.5869999999999997, "min_sampled_envelope_clearance_m": 0.0, "stop_after_appearance_s": 1.6559999999999988, "graph": {"/scan": {"publishers": ["ros_gz_bridge"], "subscribers": ["failure_lab_05_observer"]}, "/rfl05/localization_scan": {"publishers": ["failure_lab_05_observer"], "subscribers": ["amcl", "failure_lab_05_observer"]}, "/rfl05/obstacle_scan": {"publishers": ["failure_lab_05_observer"], "subscribers": ["local_costmap", "global_costmap", "collision_monitor", "failure_lab_05_observer"]}, "/rfl05/truth": {"publishers": ["failure_lab_07_bridge"], "subscribers": ["failure_lab_05_observer"]}, "/rfl05/obstacle_pose": {"publishers": ["failure_lab_07_bridge"], "subscribers": ["failure_lab_05_observer"]}, "/rfl05/contacts": {"publishers": ["failure_lab_07_bridge"], "subscribers": ["failure_lab_05_observer"]}}, "graph_end": {"/scan": {"publishers": ["ros_gz_bridge"], "subscribers": ["failure_lab_05_observer"]}, "/rfl05/localization_scan": {"publishers": ["failure_lab_05_observer"], "subscribers": ["amcl", "failure_lab_05_observer"]}, "/rfl05/obstacle_scan": {"publishers": ["failure_lab_05_observer"], "subscribers": ["local_costmap", "global_costmap", "collision_monitor", "failure_lab_05_observer"]}, "/rfl05/truth": {"publishers": ["failure_lab_07_bridge"], "subscribers": ["failure_lab_05_observer"]}, "/rfl05/obstacle_pose": {"publishers": ["failure_lab_07_bridge"], "subscribers": ["failure_lab_05_observer"]}, "/rfl05/contacts": {"publishers": ["failure_lab_07_bridge"], "subscribers": ["failure_lab_05_observer"]}}, "sensor_offset": [-0.064, 0.0, 0.0], "worker_wall_s": 18.705316682000102}

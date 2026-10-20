@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-20",
+  "focused_tests_passed": 15,
+  "tests_timing": "Before final verification and main; source frozen afterward.",
+  "main_calls": 56,
+  "all_main_evidence_checks_passed": true,
+  "policy_history_replays": 9,
+  "visibility_and_budget_audits_passed": true,
+  "runtime_parameters_identical": true,
+  "source_input_hashes_match": true,
+  "pre_main_plan_and_source_hash_snapshot": true,
+  "declared_round_robin_chronology_passed": true,
+  "coordination_adapter_hash_matches_amendment": true,
+  "visual_review": [
+    "search-cost.png",
+    "initial-model.png",
+    "qa-frame-early.png",
+    "qa-frame-middle.png",
+    "qa-frame-last.png"
+  ],
+  "gif_frames": 83,
+  "development_evidence_gap": "Two temporary verification outcomes lack full original files; explicit reconstruction retained. Main/persistent verification unaffected.",
+  "simulation_scope": "One route, one model-training-held-out placement context, three episodes sharing nine warm calls. No physical or general efficiency claim."
+}

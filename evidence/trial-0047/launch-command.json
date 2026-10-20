@@ -1,0 +1,296 @@
+{
+  "command": [
+    "ros2",
+    "launch",
+    "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/seeded_launch.py",
+    "headless:=True",
+    "use_rviz:=False",
+    "use_composition:=False",
+    "params_file:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/params.yaml",
+    "map:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/tb3_sandbox.yaml",
+    "robot_sdf:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/measured_robot.sdf.xacro",
+    "world:=/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/artifacts/robot-failure-lab-07-working/main/source/world.sdf.xacro"
+  ],
+  "bridge": [
+    "ros2",
+    "run",
+    "ros_gz_bridge",
+    "parameter_bridge",
+    "/model/turtlebot3_waffle/pose@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V",
+    "/model/rfl05_obstacle/pose@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V",
+    "/rfl05/contacts@ros_gz_interfaces/msg/Contacts[gz.msgs.Contacts",
+    "/world/default/set_pose@ros_gz_interfaces/srv/SetEntityPose",
+    "--ros-args",
+    "-r",
+    "__node:=failure_lab_07_bridge",
+    "-r",
+    "/model/turtlebot3_waffle/pose:=/rfl05/truth",
+    "-r",
+    "/model/rfl05_obstacle/pose:=/rfl05/obstacle_pose"
+  ],
+  "domain": 64,
+  "request": {
+    "role": "search",
+    "episode": 3,
+    "method": "model",
+    "scenario": {
+      "duration": 1.6,
+      "offset": -0.35,
+      "x": -0.3
+    },
+    "seed": 203,
+    "confirmation": false,
+    "decision": {
+      "reason": "Maximum GP mean + 0.5 posterior standard deviation",
+      "training_trial_ids": [
+        "trial-0001",
+        "trial-0002",
+        "trial-0003",
+        "trial-0004",
+        "trial-0006",
+        "trial-0007",
+        "trial-0008-attempt-2",
+        "trial-0009",
+        "trial-0045"
+      ],
+      "ranking": [
+        {
+          "scenario": {
+            "duration": 1.6,
+            "offset": -0.35,
+            "x": -0.3
+          },
+          "mean": 0.8086417791302274,
+          "std": 0.8034144077241663,
+          "score": 1.2103489829923104
+        },
+        {
+          "scenario": {
+            "duration": 1.2,
+            "offset": -0.175,
+            "x": -0.3
+          },
+          "mean": 0.7732602194727988,
+          "std": 0.8379005490529544,
+          "score": 1.192210493999276
+        },
+        {
+          "scenario": {
+            "duration": 1.6,
+            "offset": -0.175,
+            "x": -0.3
+          },
+          "mean": 0.768014961736929,
+          "std": 0.831131667249241,
+          "score": 1.1835807953615496
+        },
+        {
+          "scenario": {
+            "duration": 0.8,
+            "offset": -0.35,
+            "x": -0.3
+          },
+          "mean": 0.7513920215596206,
+          "std": 0.8028569475541698,
+          "score": 1.1528204953367056
+        },
+        {
+          "scenario": {
+            "duration": 0.8,
+            "offset": -0.175,
+            "x": -0.3
+          },
+          "mean": 0.6469182635962304,
+          "std": 0.8448881273857283,
+          "score": 1.0693623272890944
+        },
+        {
+          "scenario": {
+            "duration": 1.6,
+            "offset": 0.0,
+            "x": -0.3
+          },
+          "mean": 0.571729325091568,
+          "std": 0.7746141844478056,
+          "score": 0.9590364173154708
+        },
+        {
+          "scenario": {
+            "duration": 1.2,
+            "offset": 0.0,
+            "x": -0.3
+          },
+          "mean": 0.5311161182232051,
+          "std": 0.787588574460003,
+          "score": 0.9249104054532067
+        },
+        {
+          "scenario": {
+            "duration": 0.4,
+            "offset": -0.35,
+            "x": -0.3
+          },
+          "mean": 0.5043606111022436,
+          "std": 0.802697248691049,
+          "score": 0.905709235447768
+        },
+        {
+          "scenario": {
+            "duration": 0.4,
+            "offset": -0.175,
+            "x": -0.3
+          },
+          "mean": 0.4139100788229059,
+          "std": 0.8387294324232702,
+          "score": 0.833274795034541
+        },
+        {
+          "scenario": {
+            "duration": 0.8,
+            "offset": 0.0,
+            "x": -0.3
+          },
+          "mean": 0.4137469120465092,
+          "std": 0.8108772532676113,
+          "score": 0.8191855386803149
+        },
+        {
+          "scenario": {
+            "duration": 0.4,
+            "offset": 0.0,
+            "x": -0.3
+          },
+          "mean": 0.2434095354616212,
+          "std": 0.8053967221371541,
+          "score": 0.6461078965301983
+        },
+        {
+          "scenario": {
+            "duration": 0.0,
+            "offset": -0.35,
+            "x": -0.3
+          },
+          "mean": 0.23121242373495143,
+          "std": 0.8034317928295438,
+          "score": 0.6329283201497233
+        },
+        {
+          "scenario": {
+            "duration": 0.0,
+            "offset": -0.175,
+            "x": -0.3
+          },
+          "mean": 0.17853855485866948,
+          "std": 0.8321468184431905,
+          "score": 0.5946119640802647
+        },
+        {
+          "scenario": {
+            "duration": 1.6,
+            "offset": 0.175,
+            "x": -0.3
+          },
+          "mean": 0.26839975148698336,
+          "std": 0.6452452027584151,
+          "score": 0.5910223528661909
+        },
+        {
+          "scenario": {
+            "duration": 1.2,
+            "offset": 0.175,
+            "x": -0.3
+          },
+          "mean": 0.2245446772450398,
+          "std": 0.6087582985543257,
+          "score": 0.5289238265222027
+        },
+        {
+          "scenario": {
+            "duration": 0.0,
+            "offset": 0.0,
+            "x": -0.3
+          },
+          "mean": 0.09323007946515094,
+          "std": 0.7966472641565254,
+          "score": 0.49155371154341365
+        },
+        {
+          "scenario": {
+            "duration": 0.8,
+            "offset": 0.175,
+            "x": -0.3
+          },
+          "mean": 0.1456696412449403,
+          "std": 0.6609075937302732,
+          "score": 0.4761234381100769
+        },
+        {
+          "scenario": {
+            "duration": 0.4,
+            "offset": 0.175,
+            "x": -0.3
+          },
+          "mean": 0.03153377258145473,
+          "std": 0.7361640559574777,
+          "score": 0.3996158005601936
+        },
+        {
+          "scenario": {
+            "duration": 0.0,
+            "offset": 0.175,
+            "x": -0.3
+          },
+          "mean": -0.06668553784619191,
+          "std": 0.7911051138049551,
+          "score": 0.3288670190562856
+        },
+        {
+          "scenario": {
+            "duration": 1.6,
+            "offset": 0.35,
+            "x": -0.3
+          },
+          "mean": 0.07403847378167672,
+          "std": 0.37756648217026356,
+          "score": 0.2628217148668085
+        },
+        {
+          "scenario": {
+            "duration": 0.4,
+            "offset": 0.35,
+            "x": -0.3
+          },
+          "mean": -0.05786186069042798,
+          "std": 0.591336830449929,
+          "score": 0.23780655453453653
+        },
+        {
+          "scenario": {
+            "duration": 0.0,
+            "offset": 0.35,
+            "x": -0.3
+          },
+          "mean": -0.12934991575421195,
+          "std": 0.724077077153402,
+          "score": 0.23268862282248903
+        },
+        {
+          "scenario": {
+            "duration": 0.8,
+            "offset": 0.35,
+            "x": -0.3
+          },
+          "mean": 0.014387048079221643,
+          "std": 0.3719253235628476,
+          "score": 0.20034970986064543
+        }
+      ],
+      "selection_wall_s": 0.0005619200001092395
+    }
+  },
+  "host_load": [
+    1.94140625,
+    3.94873046875,
+    3.396484375
+  ]
+}

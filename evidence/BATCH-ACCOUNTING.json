@@ -1,0 +1,8 @@
+{
+  "unique_main_evaluations": 56,
+  "protocol_file_mtime_utc": "2026-10-20T14:41:08.298661+00:00",
+  "complete_file_mtime_utc": "2026-10-20T15:37:40.930914+00:00",
+  "observed_batch_elapsed_s": 3392.6322524547577,
+  "charged_attempt_and_saved_selection_s": 3341.354421772999,
+  "note": "Observed batch elapsed includes coordinator replay and manual inspection pauses; policy charged time excludes those and reporting/setup. Early temporary development evidence loss prevents exact full-session cost accounting."
+}

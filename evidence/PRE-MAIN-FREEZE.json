@@ -1,0 +1,21 @@
+{
+  "captured_utc": "2026-10-20T14:39:25.0286050Z",
+  "phase": "Final verification underway; before main training/search",
+  "plan_sha256": "44325252f80004a288b1f864a0cc816a6808f2412b38c2de7fafa0d32eccb9d1",
+  "source_sha256": {
+    "support.py": "1dd97ab7f19a646560bf13b6b671e329e1c5279e0ed204bd003b553443fb5da3",
+    "models.py": "5c47a0fc15016f1a9ab717f426d9f5c2046ce3390f92123139c1ef8d3ea449ca",
+    "validate.py": "7a4fd48a5fc6e76d2fd90984f69000a50480ff69c75b1eb4422fcce0cdfc1b84",
+    "test_search.py": "a22e87f8a3041a7b4c8a0a2c772ba59a406e7075f4020a44f6831dce30a6d2a7",
+    "search.py": "f73ac1d9d6ca83ffba5cedea0ca083af5436edf228a906baa2c7cdba8adb6ef2",
+    "worker.py": "c05092542fcd0e3fc288475d918f9583f26f358f3e10f99e57e84502cbb3f906",
+    "observer.py": "54b84c69231bbea643ce842b44cdcf106d39691bd218c22074a6facd18fbb9cb",
+    "report.py": "660b0bf90a1b4c5cd02e895dfcaecf090f1d8b8503fe6697eb6c2451602b14a4",
+    "core.py": "42d25ce6fda1564fb230867edbfde05a705f4bba6993ed1176a0918beabec0e3",
+    "run.py": "def08d90eadc5d4763ad4a6e61214fd85a0b86c990a1edb2c74320fc63fdc373",
+    "README.md": "1381fd4444383db548e45423bf550cd61c4873f9a507d7551a4632d24debf53a"
+  },
+  "main_calls_recorded": 0,
+  "main_directory_exists": false,
+  "main_goals_submitted": 0
+}

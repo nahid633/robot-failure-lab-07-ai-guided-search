@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "oracle_valid": false,
+  "label": null,
+  "scope": "Navigation did not reach scenario; charged evaluation, no target label and no retry."
+}

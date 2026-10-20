@@ -1,0 +1,10 @@
+{
+  "role": "verification",
+  "scenario": {
+    "duration": 1.6,
+    "offset": 0.0,
+    "x": -0.3
+  },
+  "seed": 100,
+  "confirmation": false
+}

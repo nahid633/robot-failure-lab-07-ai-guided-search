@@ -1,0 +1,32 @@
+{
+  "failure": "validate.py line 41: cached-origin / rewritten-stamp assertion failed; exact offending row lost",
+  "initial_setup": "Old /tmp Lab05 calibration path absent; no simulator launched in first setup directory.",
+  "source_copy": "Reconstructed from then-unchanged live source, not recovered frozen manifest.",
+  "date": "2026-10-20",
+  "provenance": "Reconstructed solely from visible tool outputs; full transient files unavailable after WSL exit. Not raw simulator evidence.",
+  "consequence": "Exclude these outcomes from all training/main comparisons; preserve this explicit evidence gap.",
+  "known_outcomes": [
+    {
+      "minimum_clearance_m": 0.144,
+      "offset": 0.0,
+      "terminal_action_status": 5,
+      "x": -0.6,
+      "trial": "trial-0001",
+      "validation": "passed",
+      "label": 0,
+      "duration": 0.0,
+      "simulator_wall_s": 41.9
+    },
+    {
+      "terminal_action_status": 5,
+      "offset": 0.0,
+      "trial": "trial-0002",
+      "duration": 1.6,
+      "validation": "not confirmed; result observed before failed validation",
+      "simulator_wall_s": 41.3,
+      "label": 1,
+      "x": -0.6
+    }
+  ],
+  "verification_root": "/tmp/robot-failure-lab-07-verification-v2-20261020"
+}
